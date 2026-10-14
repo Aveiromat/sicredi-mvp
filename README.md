@@ -63,3 +63,19 @@ Os números de `/admin` são fixos e não medem visitantes reais. 73% é a taxa 
 ## Acessibilidade
 
 HTML em pt-BR, foco visível, link para pular navegação, áreas de toque grandes, progresso com ARIA, feedback anunciado e respeito à preferência por movimento reduzido. Conteúdo do jogo limitado a 430px; landing e painel adaptados para desktop.
+
+## SEO e identidade
+
+Metadados de título/descrição por rota, URLs canônicas, Open Graph e Twitter Cards com imagem 1200×630, favicon Sicredi, ícone Apple e manifesto para adicionar à tela inicial.
+
+Apenas a landing participa do sitemap. As telas do jogo, resultado, recompensa, simulação e admin têm `noindex`. Ambientes locais e previews da Vercel bloqueiam indexação. A produção HTTPS libera a landing.
+
+A URL pública usa, nesta ordem, `NEXT_PUBLIC_SITE_URL`, `VERCEL_PROJECT_PRODUCTION_URL`, `VERCEL_URL` e localhost. A Vercel fornece suas próprias variáveis automaticamente. Para domínio próprio, defina `NEXT_PUBLIC_SITE_URL=https://seu-dominio.com` no ambiente Production da Vercel e faça novo deploy. Não use o domínio oficial do Sicredi para este protótipo.
+
+Ícones e imagem social são arquivos estáticos derivados do símbolo fornecido. Para regenerar:
+
+```sh
+npm run assets:brand
+```
+
+O script usa Sharp apenas em desenvolvimento. O manifesto não inclui service worker nem promete funcionamento offline.

@@ -1,3 +1,9 @@
+import { gamePageMetadata } from "@/lib/seo";
+export const metadata = gamePageMetadata(
+  "Métricas demonstrativas",
+  "Painel público com métricas fictícias para demonstrar a validação do MVP.",
+  "/admin",
+);
 import { Button } from "@/components/ui/button";
 const metrics = [
   { label: "Pessoas iniciaram", value: "1.240", ratio: 100 },
