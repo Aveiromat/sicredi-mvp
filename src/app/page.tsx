@@ -1,88 +1,90 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { rewards } from "@/data/rewards";
 export default function Home() {
   return (
     <>
       <section className="hero">
         <div className="hero-copy">
-          <div className="pill">
-            ● &nbsp; SEU DINHEIRO. SUAS REGRAS. SEU FUTURO.
-          </div>
+          <div className="pill">🎁 &nbsp; TEM BRINDE NO FIM DESSA JORNADA</div>
           <h1>
-            Você sobreviveria
+            Dê play no desafio.
             <br />
-            financeiramente
-            <br />
-            <span>aos 22?</span>
-            <span className="title-spark">✳</span>
+            <span>
+              Desbloqueie
+              <br />
+              seu brinde.
+            </span>
           </h1>
           <p>
-            A vida não vem com tutorial.
-            <br /> Mas o seu dinheiro pode ter um.
+            Mais conhecimento no bolso.
+            <br />
+            Uma conquista pra chamar de sua.
           </p>
           <p className="hero-description">
-            Complete o desafio, descubra seu nível financeiro e desbloqueie uma
-            recompensa. Bora dar play?
+            Responda 6 desafios rápidos sobre dinheiro e chegue à sua
+            recompensa. Camiseta, pelúcia, copo ou ecobag: qual combina com
+            você?
           </p>
+          <div
+            className="reward-preview"
+            aria-label="Brindes ilustrativos da campanha"
+          >
+            {rewards.map((reward) => (
+              <div key={reward.name}>
+                <span aria-hidden="true">{reward.icon}</span>
+                <span>{reward.name}</span>
+              </div>
+            ))}
+          </div>
           <div className="hero-cta">
-            <Button href="/introducao">Começar desafio ↗</Button>
+            <Button href="/introducao">Desbloquear meu brinde ↗</Button>
             <span className="time">
               ◷ Menos de 3 minutos
               <small>Grátis. Sem cadastro. Sem complicação.</small>
             </span>
           </div>
-          <div className="social-proof">
-            <div className="avatars">
-              <span>👩🏽</span>
-              <span>🧑🏻</span>
-              <span>👨🏾</span>
-              <span>👩🏼</span>
-            </div>
-            <span>
-              <strong>Seu próximo nível começa aqui.</strong>
-              <small>Conhecimento que faz diferença na vida real.</small>
-            </span>
-          </div>
+          <p className="hero-demo-note">
+            Campanha demonstrativa. Brindes ilustrativos, sem entrega real.
+          </p>
         </div>
         <div
-          className="hero-visual"
+          className="hero-visual reward-visual"
           role="img"
-          aria-label="Cartão modo vida real ativado, moedas e conquistas"
+          aria-label="Caixa de presente com camiseta, pelúcia, copo e ecobag ilustrativos"
         >
           <div className="orbit orbit-one" />
           <div className="orbit orbit-two" />
           <span className="floating star-one">✳</span>
           <span className="floating star-two">✦</span>
           <div className="xp-float">
-            ⚡ <b>+100 XP</b>
-            <small>um passo à frente</small>
+            ⚡ <b>6 desafios</b>
+            <small>uma nova conquista</small>
           </div>
-          <div className="game-card">
-            <div className="game-card-top">
-              <span>SEU FUTURO</span>
-              <span>↗</span>
-            </div>
-            <div className="card-label">MODO</div>
-            <strong>
-              vida real<span>ON.</span>
-            </strong>
-            <div className="card-bottom">
-              <span>●●●● &nbsp; 2026</span>
-              <span>✳</span>
+          <div className="prize-halo" />
+          <div className="prize-item prize-shirt">👕</div>
+          <div className="prize-item prize-bear">🧸</div>
+          <div className="prize-item prize-cup">🥤</div>
+          <div className="prize-item prize-bag">🛍️</div>
+          <div className="gift-box">
+            <div className="gift-lid" />
+            <span className="gift-ribbon" />
+            <div className="gift-label">
+              <small>SEU PRÓXIMO</small>
+              <strong>brinde.</strong>
+              <span>COMEÇA COM UM PLAY ↗</span>
             </div>
           </div>
-          <div className="coin coin-one">$</div>
-          <div className="coin coin-two">$</div>
           <div className="level-float">
-            <span>🏆</span>
+            <span>🎁</span>
             <div>
-              <small>CONQUISTA DESBLOQUEADA</small>
-              <strong>O primeiro passo é seu.</strong>
+              <small>APRENDEU. COMPLETOU.</small>
+              <strong>Recompensa desbloqueada!</strong>
             </div>
             <b>✓</b>
           </div>
           <span className="visual-caption">
-            menos perrengue. mais possibilidades.
+            conhecimento que vira conquista. ✦
           </span>
         </div>
       </section>
@@ -116,10 +118,10 @@ export default function Home() {
             },
             {
               n: "03",
-              icon: "♧",
-              title: "Desbloqueie o próximo",
-              text: "Conhecimento na bagagem e uma recompensa para celebrar sua jornada.",
-              tag: "TEM CONQUISTA NO FINAL",
+              icon: "🎁",
+              title: "Chegue ao seu brinde",
+              text: "Complete o desafio e descubra os brindes da nossa campanha demonstrativa.",
+              tag: "SUA RECOMPENSA TE ESPERA",
               cls: "peach",
             },
           ].map((c) => (
@@ -136,12 +138,12 @@ export default function Home() {
         </div>
       </section>
       <section className="bottom-banner">
-        <span>✳</span>
+        <span>🎁</span>
         <div>
-          <h2>O futuro é seu. O primeiro play também.</h2>
-          <p>Educação financeira no seu ritmo, do seu jeito.</p>
+          <h2>Um desafio rápido. Um brinde no seu radar.</h2>
+          <p>Aprenda sobre dinheiro e desbloqueie sua recompensa demo.</p>
         </div>
-        <Link href="/introducao">Bora descobrir? ↗</Link>
+        <Link href="/introducao">Quero meu brinde ↗</Link>
       </section>
     </>
   );

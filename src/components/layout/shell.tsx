@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import type { ReactNode } from "react";
 import { resetProgress } from "@/lib/storage";
@@ -10,7 +11,16 @@ export function Shell({ children }: { children: ReactNode }) {
     <div className="app-shell">
       <header className="header">
         <Link href="/" className="brand" aria-label="Sicredi Play, início">
-          <span className="brand-symbol">✳</span>
+          <span className="brand-logo">
+            <Image
+              src="/brand/sicredi-symbol.jpg"
+              alt=""
+              width={900}
+              height={900}
+              priority
+              sizes="72px"
+            />
+          </span>
           <span>
             sicredi<span className="brand-play">play</span>
           </span>

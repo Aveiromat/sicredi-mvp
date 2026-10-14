@@ -73,10 +73,18 @@ em {
   font-weight: 750;
   letter-spacing: -1.8px;
 }
-.brand-symbol {
-  font-size: 48px;
-  color: #4b933c;
-  line-height: 1;
+.brand-logo {
+  width: 44px;
+  height: 48px;
+  flex: 0 0 44px;
+  overflow: hidden;
+  mix-blend-mode: multiply;
+}
+.brand-logo img {
+  width: 72px;
+  height: 72px;
+  max-width: none;
+  transform: translate(-14px, -12px);
 }
 .brand-play {
   font-size: 22px;
@@ -1026,6 +1034,169 @@ em {
     transform: translateY(0);
   }
 }
+.reward-preview {
+  display: flex;
+  gap: 9px;
+  margin-top: 21px;
+}
+.reward-preview > div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: white;
+  border: 1px solid #e0e7d7;
+  border-radius: 10px;
+  padding: 9px 10px;
+  font-size: 10px;
+  color: #48643b;
+}
+.reward-preview > div > span:first-child {
+  font-size: 22px;
+}
+.hero-copy .hero-demo-note {
+  font-size: 10px;
+  line-height: 1.6;
+  color: var(--muted);
+  letter-spacing: 0;
+  margin-top: 16px;
+  max-width: 380px;
+}
+.reward-visual {
+  min-height: 490px;
+}
+.prize-halo {
+  position: absolute;
+  width: 310px;
+  height: 310px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #e5f5bc 0%, #e9f1d9 70%);
+  top: 90px;
+}
+.gift-box {
+  width: 240px;
+  height: 185px;
+  position: absolute;
+  top: 252px;
+  background: linear-gradient(115deg, #3c8052, #17563c);
+  border-radius: 6px 6px 20px 20px;
+  transform: rotate(-7deg);
+  box-shadow:
+    13px 18px 0 #b7ce975c,
+    0 24px 40px #234f3126;
+  z-index: 4;
+}
+.gift-lid {
+  position: absolute;
+  top: -15px;
+  left: -12px;
+  right: -12px;
+  height: 37px;
+  background: linear-gradient(100deg, #53915d, #2e7049);
+  border-radius: 8px;
+  box-shadow: 0 6px 0 #123f2d24;
+  z-index: 2;
+}
+.gift-lid:before,
+.gift-lid:after {
+  content: "";
+  position: absolute;
+  width: 69px;
+  height: 38px;
+  border: 12px solid #d6ef8c;
+  border-radius: 55% 55% 8% 55%;
+  top: -37px;
+  left: 65px;
+  transform: rotate(15deg);
+}
+.gift-lid:after {
+  left: 128px;
+  transform: scaleX(-1) rotate(15deg);
+}
+.gift-ribbon {
+  position: absolute;
+  width: 42px;
+  height: 100%;
+  background: linear-gradient(90deg, #c6e17f, #e0f4a1);
+  top: 0;
+  left: 99px;
+  opacity: 0.9;
+}
+.gift-label {
+  position: relative;
+  transform: rotate(7deg);
+  background: #f6fae8;
+  box-shadow: 0 5px 15px #164a3224;
+  border-radius: 10px;
+  width: 177px;
+  margin: 43px auto 0;
+  padding: 15px 17px;
+}
+.gift-label small {
+  display: block;
+  font-size: 8px;
+  letter-spacing: 2px;
+  color: #617c4a;
+}
+.gift-label strong {
+  font-size: 39px;
+  letter-spacing: -2px;
+  line-height: 1.2;
+}
+.gift-label > span {
+  display: block;
+  font-size: 7px;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+.prize-item {
+  position: absolute;
+  font-size: 87px;
+  z-index: 3;
+  filter: drop-shadow(0 9px 9px #21492e22);
+  line-height: 1;
+}
+.prize-shirt {
+  top: 117px;
+  left: 65px;
+  transform: rotate(-18deg);
+}
+.prize-bear {
+  top: 80px;
+  left: 180px;
+  font-size: 110px;
+  transform: rotate(9deg);
+}
+.prize-cup {
+  top: 163px;
+  right: 12px;
+  font-size: 78px;
+  transform: rotate(17deg);
+}
+.prize-bag {
+  top: 190px;
+  left: 29px;
+  font-size: 70px;
+  transform: rotate(-17deg);
+}
+.reward-visual .xp-float {
+  top: 34px;
+  left: 10px;
+}
+.reward-visual .star-one {
+  top: 25px;
+  right: 30px;
+}
+.reward-visual .star-two {
+  bottom: 28px;
+  left: 18px;
+}
+.reward-visual .level-float {
+  bottom: 6px;
+  right: -5px;
+}
+.reward-visual .visual-caption {
+  bottom: -29px;
+}
 @media (min-width: 1400px) {
   .app-shell {
     max-width: 1360px;
@@ -1093,8 +1264,15 @@ em {
   .brand {
     font-size: 27px;
   }
-  .brand-symbol {
-    font-size: 39px;
+  .brand-logo {
+    width: 34px;
+    height: 38px;
+    flex-basis: 34px;
+  }
+  .brand-logo img {
+    width: 58px;
+    height: 58px;
+    transform: translate(-12px, -10px);
   }
   .brand-play {
     font-size: 18px;
@@ -1370,6 +1548,97 @@ em {
   }
   .campaign strong {
     font-size: 15px;
+  }
+  .reward-preview {
+    gap: 7px;
+    margin-top: 18px;
+  }
+  .reward-preview > div {
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 4px;
+    font-size: 10px;
+  }
+  .reward-preview > div > span:first-child {
+    font-size: 26px;
+  }
+  .hero-copy .hero-demo-note {
+    text-align: center;
+    font-size: 9px;
+    margin-top: 14px;
+  }
+  .reward-visual {
+    min-height: 390px;
+    margin-top: 17px;
+    margin-bottom: 18px;
+  }
+  .prize-halo {
+    width: 280px;
+    height: 280px;
+    top: 60px;
+  }
+  .gift-box {
+    top: 210px;
+    width: 215px;
+    height: 155px;
+  }
+  .gift-ribbon {
+    left: 87px;
+  }
+  .gift-lid:before {
+    left: 52px;
+  }
+  .gift-lid:after {
+    left: 115px;
+  }
+  .gift-label {
+    margin-top: 35px;
+    width: 162px;
+    padding: 12px 14px;
+  }
+  .gift-label strong {
+    font-size: 34px;
+  }
+  .prize-shirt {
+    top: 94px;
+    left: 24px;
+    font-size: 76px;
+  }
+  .prize-bear {
+    top: 45px;
+    left: 128px;
+    font-size: 100px;
+  }
+  .prize-cup {
+    top: 137px;
+    right: -2px;
+    font-size: 72px;
+  }
+  .prize-bag {
+    top: 170px;
+    left: 0;
+    font-size: 59px;
+  }
+  .reward-visual .xp-float {
+    top: 5px;
+    left: -5px;
+    font-size: 14px;
+  }
+  .reward-visual .star-one {
+    right: 0;
+    top: 3px;
+  }
+  .reward-visual .level-float {
+    bottom: -16px;
+    right: -4px;
+  }
+  .reward-visual .star-two {
+    bottom: 10px;
+    left: 0;
+  }
+  .reward-visual .visual-caption {
+    bottom: -50px;
   }
 }
 @media (prefers-reduced-motion: reduce) {
