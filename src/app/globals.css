@@ -1650,3 +1650,48 @@ em {
     scroll-behavior: auto !important;
   }
 }
+
+.answer-explanations {
+  border-top: 1px solid #153d3120;
+  margin: 18px 0;
+  padding-top: 17px;
+}
+.answer-explanations h2 {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  margin-bottom: 12px;
+}
+.answer-explanations ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.answer-explanations li {
+  padding: 13px;
+  background: #ffffff90;
+  border: 1px solid #153d3115;
+  border-radius: 10px;
+}
+.answer-explanations li.chosen-explanation {
+  border-color: #ad7151;
+}
+.answer-explanations li strong {
+  display: block;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.answer-explanations li p {
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 7px 0 0;
+}
+.chosen-label {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #825338;
+  font-weight: 600;
+}

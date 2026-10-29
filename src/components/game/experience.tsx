@@ -18,6 +18,7 @@ import {
 import { readSnapshot, subscribeProgress, saveProgress } from "@/lib/storage";
 
 import { Button } from "@/components/ui/button";
+import { AnswerExplanations } from "@/components/game/answer-explanations";
 import type { GameState } from "@/types/game";
 const subscribeToHydration = () => () => {};
 const clientReady = () => true;
@@ -220,6 +221,10 @@ export function Experience({
                     : "Essa fica de aprendizado 💡"}
                 </strong>
                 <p>{q.explanation}</p>
+                <AnswerExplanations
+                  question={q}
+                  selectedOption={feedback.option}
+                />
                 <Button
                   onClick={() => {
                     setFeedback(null);

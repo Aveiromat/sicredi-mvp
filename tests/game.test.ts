@@ -9,6 +9,22 @@ import {
 import { questions } from "../src/data/questions.ts";
 
 describe("desafio financeiro", () => {
+  it("explica individualmente todas as alternativas incorretas", () => {
+    for (const question of questions) {
+      question.options.forEach((_, index) => {
+        if (index !== question.correct) {
+          assert.ok(
+            question.incorrectExplanations[index]?.trim().length > 20,
+            `${question.id}: falta explicação para a alternativa ${index}`,
+          );
+        }
+      });
+      assert.equal(
+        Object.keys(question.incorrectExplanations).length,
+        question.options.length - 1,
+      );
+    }
+  });
   it("pontua apenas uma vez e não permite pular questões", () => {
     const first = answerQuestion(
       initialState,

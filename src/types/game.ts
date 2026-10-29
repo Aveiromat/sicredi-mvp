@@ -5,6 +5,7 @@ export type Question = {
   options: string[];
   correct: number;
   explanation: string;
+  incorrectExplanations: Record<number, string>;
   symbol: string;
 };
 export type GameState = {
