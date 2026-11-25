@@ -1,0 +1,76 @@
+CONTEXTO COMPLETO — COOP JOVEM
+
+Use este texto como briefing do projeto. O nome escolhido é Coop Jovem, sem hífen. Sicredi Play foi o nome provisório do MVP e ainda pode aparecer em arquivos antigos e capturas. “Do feed à conta” é o título do pitch, não outro nome para o jogo. O projeto é uma proposta para o Sicredi; não presuma parceria, campanha oficial nem aprovação do TikTok.
+
+O PROBLEMA E O PÚBLICO
+
+Queremos aproximar jovens de 18 a 25 anos do Sicredi e ampliar a participação deles na cooperativa. A distância tem duas faces. Quem está fora pode não conhecer o Sicredi, não se imaginar como cooperado ou percebê-lo como tradicional. Quem já é associado pode ter conta sem se sentir ouvido ou sem saber como participar. Essas são hipóteses sobre barreiras, não resultados de pesquisa já comprovados. Também não sabemos quantos preferem bancos digitais como principal nem quantos estão disponíveis para aderir.
+
+O valor da proposta tem dois lados, igualmente importantes. O primeiro é comercial: transformar alcance de conteúdo em interesse pela abertura de conta, contas efetivamente abertas, ativação e uso ao longo do tempo. A relação pode gerar valor no médio e longo prazo, mas retorno, custo de atendimento e risco não estão comprovados. O segundo é cooperativo: dar voz aos jovens, convidá-los a contribuir com ideias e criar espaço para que ajudem a construir o futuro do Sicredi. Exemplos após a abertura: rodas de escuta, convites para iniciativas locais, comitês ou programas existentes e devolutiva sobre ideias recebidas. O quiz é uma porta de entrada; essas ações exigem operação do Sicredi e não existem no MVP.
+
+A SOLUÇÃO E A JORNADA
+
+Coop Jovem é um quiz rápido de educação financeira pensado para o TikTok. A ideia é usar vídeos do Sicredi que já seriam publicados, desde que elegíveis, ou vídeos criados para divulgar o jogo. Uma etiqueta ou âncora no vídeo convida a pessoa a jogar. A pessoa toca, abre o minijogo dentro do TikTok e responde a seis perguntas fáceis. Depois de responder, vê por que a alternativa correta faz sentido e por que cada alternativa incorreta não funciona, na mesma tela, sem abrir outra aba. Esse feedback já existe por escrito no MVP. Vídeos explicativos curtos são uma evolução possível, não uma função pronta.
+
+Ao final, a pessoa vê seus acertos e um perfil lúdico de aprendizagem. Não chamar isso de “perfil de investidor”. Se quiser, segue para o fluxo oficial do Sicredi. O incentivo previsto é um brinde de baixo custo, como copo ou camiseta, entregue somente depois de uma abertura elegível confirmada, conforme regulamento, estoque e operação do Sicredi. Completar o quiz sozinho não dá direito a brinde real. No protótipo também aparecem pelúcia e ecobag como exemplos ilustrativos. A jornada proposta é: vídeo → etiqueta → quiz → explicações → resultado → abertura oficial → confirmação e brinde → oportunidade de participação na cooperativa.
+
+O TikTok documenta Mini Games no Brasil e mecanismos de entrada por vídeo. Isso não garante acesso para o Sicredi, uso em todo vídeo, aprovação de conteúdo financeiro nem encaminhamento externo para abertura de conta. Confirmar elegibilidade, acesso à conta, regras de publicação, opção de âncora e fluxo de saída. Conteúdo orgânico e mídia paga são opções distintas; para mídia paga, verificar as regras de anúncios financeiros e público adulto. Não afirmar que os Mini Games chegaram ao Brasil em determinada data sem uma fonte. Um exemplo real de etiqueta é útil para a banca entender a experiência e deve ser identificado como referência, não como integração pronta.
+
+O QUE EXISTE HOJE
+
+Existe um MVP web responsivo, já publicado como demonstração, com landing, introdução, seis perguntas, dois microconteúdos, barra de progresso e XP. Os temas incluem cartão de crédito, reserva de emergência, organização, faturamento e lucro, contas pessoais e do negócio e pró-labore. Após cada resposta, mostra feedback e explicações individuais das alternativas incorretas, destacando a opção marcada quando foi errada. Cada acerto vale 100 XP, sem penalidade; 0–2 acertos levam a Explorador Financeiro, 3–4 a Organizador e 5–6 a Jovem Estrategista. O resultado mostra pontos, acertos e perfil. Há uma vitrine de brindes, código demonstrativo e simulação de abertura, inclusive uma tela de confirmação simulada. O painel /admin tem métricas fictícias. O progresso é salvo no navegador. O MVP não coleta leads reais, não abre contas, não envia brindes, não tem integração bancária nem roda como Mini Game dentro do TikTok. Não usar métricas do painel como resultados reais.
+
+Há nove capturas reais do MVP web em formato mobile, com moldura de celular e fundo transparente: início, como jogar, pergunta, explicação na mesma tela, microconteúdo, resultado, brindes, abertura simulada e confirmação simulada. Para o slide de demonstração, uma sequência boa é início, explicação, resultado e brindes. Identificar como telas do MVP web, nunca como captura do TikTok.
+
+DADOS E COMO INTERPRETAR
+
+• 15% dos associados têm de 18 a 25 anos, segundo informação recebida pela equipe de dados do Sicredi. O grupo trata esse número como informado internamente; ainda faltam data, abrangência, contagens e denominador. Não presumir que cobre a base nacional, pessoas físicas ou apenas ativos.
+• O Relatório Anual 2025 do Sicredi apresenta 9,7 milhões de associados no Brasil em 2025. Não multiplicar esse total pelos 15% sem confirmar se os dois universos coincidem. Os outros 85% não são mercado perdido nem jovens de outros bancos.
+• O grupo informou 215 mil seguidores e 2,7 milhões de curtidas acumuladas no perfil do Sicredi no TikTok. Registrar o perfil e a data da contagem antes de publicar. Curtidas não são visualizações, seguidores, pessoas únicas nem conversões. Não afirmar que a maioria dos seguidores é jovem sem dados de idade. A pergunta do pitch é: “Quantos jovens de 18 a 25 anos que veem esses vídeos abrem conta e passam a participar da cooperativa?”
+• TIC Domicílios 2025: entre internautas brasileiros de 16 a 24 anos, 65% jogaram pela internet, 86% assistiram a vídeos, programas, filmes ou séries online, 67% fizeram consultas, pagamentos ou outras transações financeiras online, e 88% fizeram pagamento ou transferência por Pix. Esses dados contextualizam hábitos digitais. A faixa não é exatamente 18–25 e os indicadores não medem preferência por bancos digitais nem audiência do TikTok.
+• O grupo ainda precisa levantar, por praça, quantos jovens estão no público elegível, quais instituições usam, qual é a principal, quais barreiras enfrentam e quantos considerariam o Sicredi. Separar uso simultâneo, banco principal, falta de conta e intenção. Nunca apresentar dados de mercado estimados como fatos internos.
+
+PEDIDO À MAIA E MEDIÇÃO
+
+A Maia é a ponte com a pessoa de dados do Sicredi. Pedir apenas informações internas, agregadas e sem dados pessoais. Prioridades: documentar os 15%; pedir novas adesões de 18–25 nos últimos 12 meses e proporção entre novas adesões PF; entender quantos iniciam e concluem a abertura; pedir ativação até 30 dias e, se existir, uso em 90 dias. Se houver recorte, pedir por cooperativa, região e canal. Também pedir resultados de campanhas, custo por conta ativada, possibilidade de atribuição e indicadores de participação em assembleias, comitês, programas jovens ou espaços de escuta. Para TikTok, o dado interno útil é o Analytics da conta oficial: contagem datada, alcance e idade nas faixas que o painel disponibiliza, caso marketing possa repassar. Pesquisa geral de mercado fica com o grupo, não com a Maia.
+
+Na produção, distinguir alcance, toque na etiqueta, início do quiz, conclusão, ida ao canal oficial, abertura elegível, ativação e participação. Uma pessoa que clicou ainda não é um lead identificado e uma conta aberta ainda não é uma conta ativa. O Sicredi deve definir o evento de ativação e as janelas. Acompanhar uso em 90 dias e participação em convites, incluindo devolutiva sobre ideias. Se houver dados autorizados, medir custo por conta ativada e, quando existir uma comparação válida, custo por ativação adicional. Sem atribuição ou comparação, não dizer que o quiz causou o resultado. Idealmente, o jogo encaminha para o Sicredi e o projeto recebe apenas indicadores agregados, conforme os acessos e regras acordados.
+
+O QUE ESTAMOS VENDENDO
+
+A proposta comercial é contratar a plataforma de captação, com desenvolvimento, implantação e suporte a definir. Não é vender brindes nem vender um piloto separado. O MVP atual serve para demonstrar a ideia. A construção para produção começa depois do contrato e da liberação dos acessos e insumos necessários. A equipe do projeto adapta o jogo para o ambiente TikTok, prepara conteúdo e instrumentação, testa e prepara a submissão. O Sicredi fica responsável por acessos oficiais, marca, divulgação, abertura de conta, regulamento, estoque, atendimento e entrega do brinde. Orçamentos de mídia e brindes ficam separados do serviço.
+
+A estimativa inicial de desenvolvimento e preparação é de quatro a oito semanas a partir de contrato, acessos e insumos. Aprovação externa pode acrescentar tempo; não prometer data de publicação. O modelo discutido foi taxa de implantação mais mensalidade, ou mensalidade única. R$ 10 mil iniciais e R$ 2,5 mil por mês foram exemplos internos de discussão, não valores fechados. US$ 60 para implementação no TikTok foi um palpite, não um custo confirmado. Evitar esses números em material externo até fechar escopo e preço.
+
+APRESENTAÇÃO E PITCH
+
+O pitch tem seis slides: capa e cinco slides de conteúdo. A ordem é:
+1. Capa: “Do feed à conta”, apresentando Coop Jovem.
+2. Problema: a distância entre jovens e cooperativa, tanto fora quanto dentro.
+3. Dado: 15% na faixa de 18–25 e a oportunidade de construir relacionamento.
+4. TikTok do Sicredi: 215 mil seguidores e 2,7 milhões de curtidas acumuladas, seguidos da pergunta de conversão. Esse era o terceiro slide de conteúdo antes da inclusão da capa.
+5. Demonstração do jogo: telas do MVP web, feedback sem sair da tela, resultado e brinde condicionado à abertura elegível. Explicar na fala a etiqueta do vídeo e, se houver, mostrar um exemplo real separado.
+6. Encerramento: apresentar o grupo e convidar o Sicredi a construir o projeto. Equilibrar retorno mensurável e voz jovem. Sugestão de fala: “A próxima geração não precisa só conhecer o Sicredi. Precisa ter voz nele.”
+
+A proposta comercial mais longa tem oito slides e detalha o escopo e as responsabilidades. O pitch precisa ter texto grande para leitura de longe; deixe os detalhes nas notas ou na fala. Não sobrecarregar a tela com dados sem denominador. A banca pode não conhecer o TikTok, então explicar a etiqueta em linguagem simples. Nomes e foto do grupo não foram fornecidos aqui; não inventar.
+
+IDENTIDADE VISUAL E BRIEFING PARA IMAGENS
+
+Nome obrigatório: Coop Jovem. A identidade deve parecer jovem, divertida, clara e confiável. Base visual sugerida: verde escuro, verde-lima e branco, com um símbolo que funcione pequeno na etiqueta e no ícone. O manual do Sicredi indica Exo 2.0 como tipografia principal e Nunito como secundária; os decks produzidos usam Arial, então não dizer que já aplicamos Exo 2.0. “Do feed à conta” pode acompanhar o nome no pitch.
+
+Já foram produzidos seis estudos de logo: Controle (gamepad), Arcade de bolso (console pixelado), assinatura com Sicredi, assinatura para o feed com TikTok, Voz e participação (balão de fala com play), e Controle com marcas separadas (Sicredi como destinatário e TikTok como canal proposto). Para o ícone do jogo, a opção de controle sem marcas externas é uma direção forte. Para enfatizar pertencimento, explorar balão de fala, jogo em dupla ou formas que se encaixam. Para o pitch, é possível usar as marcas separadas em tamanho secundário e identificá-las corretamente, sem sugerir parceria oficial. Usar o símbolo original do Sicredi fornecido como referência; evitar redesenhar marcas oficiais. Validar o uso antes de publicação. Entregáveis úteis: prancha numerada, PNG transparente, SVG editável, versão horizontal, versão quadrada e ícone sozinho.
+
+ARQUIVOS PARA COMPARTILHAR
+
+O kit sem código fica em entregas/Kit-para-o-Drive: 01-Apresentacoes (PDFs e PowerPoints), 02-Contexto (dados, mensagem à Maia e pendências), 03-Marca (símbolo, ícones e arte de divulgação), 04-Prints-mobile (nove capturas), e 05-Logos-Co-op-Jovem (seis estudos). O pitch com capa é a versão mais recente dos slides. O nome Coop Jovem foi escolhido depois dos decks e dos prints; materiais anteriores podem continuar com a identidade provisória até serem atualizados. A tentativa de upload pelo conector do Drive falhou por quota; a pasta local está preparada para upload manual. Não assumir que os arquivos já estão no Drive.
+
+FONTES E REFERÊNCIAS
+
+Relatório Anual 2025 do Sicredi, p. 6: https://www.sicredi.com.br/media/coop/filer_public/2026/04/02/relatorio_anual_2025_site.pdf
+TIC Domicílios 2025, transações financeiras e Pix: https://cetic.br/pt/tics/domicilios/2025/individuos/C6/expandido/
+TIC Domicílios 2025, jogos e vídeo: https://cetic.br/pt/tics/domicilios/2025/individuos/C7/expandido/
+TikTok Mini Games: https://developers.tiktok.com/docs/en/mini-games-overview
+Documentação técnica e entradas por vídeo: https://developers.tiktok.com/docs/en/mini-games-technical-overview
+Revisão do TikTok: https://developers.tiktok.com/docs/en/acceptance-testing-guidlines
+Política de anúncios de serviços financeiros: https://ads.tiktok.com/resources/help/article/tiktok-ads-policy-financial-services?lang=pt
+Tipografia Sicredi: https://marca.sicredi.com.br/tipografia/
